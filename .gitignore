@@ -1,0 +1,83 @@
+# -----------------
+# Java & Maven
+# -----------------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+bin/
+
+# Build outputs
+*.class
+*.jar
+*.war
+*.ear
+
+# -----------------
+# IDEs & Tools
+# -----------------
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+
+# VSCode
+.vscode/
+
+# -----------------
+# OS-specific files
+# -----------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# -----------------
+# Logs & Reports
+# -----------------
+logs/
+*.log
+hs_err_pid*
+
+# -----------------
+# Tests & Coverage
+# -----------------
+test-output/
+coverage/
+jacoco.exec
+*.exec
+*.ec
+
+# -----------------
+# Temp Files
+# -----------------
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# -----------------
+# Local Config Files
+# -----------------
+.env
+*.env
+application-*.properties
+settings.json
+
+# -----------------
+# Spring Boot & Lombok
+# -----------------
+.spring-boot-devtools.properties
+lombok.config
